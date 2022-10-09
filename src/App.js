@@ -9,6 +9,7 @@ import Footer from "./CommonComponent/Footer";
 import Header from "./CommonComponent/Header";
 
 import Registration from "./BodyComponent/Registration";
+import Sponsor from "./BodyComponent/Sponsor";
 function App() {
   return (
     <>
@@ -22,6 +23,7 @@ function App() {
           <Route path="/chartable" element={<Charatable/>}/>
           <Route path="/login" element={<Login/>}/>
           <Route path="/register" element={<Registration/>}/>
+          <Route path="/sponsor" element={<Sponsor/>}/>
 </Routes>
         
     </BrowserRouter>
